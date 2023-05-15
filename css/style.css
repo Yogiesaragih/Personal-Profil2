@@ -68,7 +68,7 @@ body{
 }
 
 .section{
-   padding-block: 125px 87px;
+   padding-block: 12px 87px;
 }
 h1,
 h2,
@@ -138,7 +138,7 @@ h6{
     position: relative;
     top: 0;
     left: 0;
-    background-color: #004d41;
+    background-color: #000000;
     padding-block: 15px;
     width: 100%;
     z-index: 10;
@@ -209,7 +209,7 @@ h6{
     z-index: 100;
     display: grid;
     place-content: center;
-    background-color: #fff;
+    background-color: #ffffff;
     visibility: hidden;
     opacity: 0;
     transition: all .5s cubic-bezier(0.9,0.03,0.69,0.22);;
@@ -296,7 +296,7 @@ h6{
 
 .skills_list .span{
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -313,7 +313,7 @@ h6{
     text-align: center;
     display: grid;
     place-content: center;
-    border: 1px solid #2c2c2c;
+    border: 1px solid #000000;
     background-color: transparent;
     font-size: 14px;
     color: #fff;
@@ -378,13 +378,13 @@ h6{
 
 .about{
     background-color: #01181d;
-    padding: 32px 0 30px;
+    padding: 32px 0 40px;
 }
 
 .about_content .bio{
     color: #fff;
     font-weight: 700;
-    font-size: 21px;
+    font-size: 40px;
     line-height: 30px;
 }
 
@@ -397,7 +397,7 @@ h6{
 
 .about_content .bio_desc{
     margin-block: 27px 15px;
-    color: #cdcdcd;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -442,7 +442,7 @@ h6{
 
 .skills_container{
     background-color: #031f25;
-    border-radius: 12px;
+    border-radius: 16px;
     padding: 50px  45px;
 }
 .skills_items{
@@ -456,8 +456,8 @@ h6{
 }
 
 .skills_title h3{
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 900;
+    font-size: 18px;
     color: #fff;
 }
 
@@ -703,7 +703,7 @@ textarea{
 /* FOOTER */
 
 .footer{
-    padding: 26px 24px;
+    padding: 100px 50px;
     background-color: #031f25;
     color: #fff;
     text-align: center;
@@ -807,7 +807,11 @@ textarea{
         display: none;
     }
     .header{
-        background-color: transparent;
+        background-color: #01181d;
+        padding-block: 24px;
+    }
+    .header.a{
+        background-color: #01181d;
         padding-block: 24px;
     }
     
@@ -860,7 +864,7 @@ textarea{
     }
 
     .header{
-        padding-block: 50px;
+        padding-block: 20px;
     }
     .nav_list{
         gap: 35px;
